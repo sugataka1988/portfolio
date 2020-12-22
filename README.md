@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+自作ポートフォリオになります。私の経歴、スキル、夢などを載せています
 
-Things you may want to cover:
 
-* Ruby version
+使用技術
 
-* System dependencies
+Ruby 2.6.6
 
-* Configuration
+Ruby on rails 6.0.3.4
 
-* Database creation
+AWS Cloud9
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Heroku
