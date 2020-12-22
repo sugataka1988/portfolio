@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-logo">Menu</div>
+      <ul class="header-menus">
+        <li>
+          <a href="top">Top</a>
+        </li>
+        <li>
+          <a href="profile">Profile</a>
+        </li>
+        <li>
+          <a href="career">Career</a>
+        </li>
+        <li>
+          <a href="skill">Skill</a>
+        </li>
+        <li>
+          <a href="dream">Dream</a>
+        </li>
+        <li>
+          <a href="product">Product</a>
+        </li>
+      </ul>
+    </header>
+    <%= yield %>
+  </body>
+</html>

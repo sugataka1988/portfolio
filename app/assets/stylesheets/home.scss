@@ -1,0 +1,199 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+/* reset ================================ */
+
+
+// 全体
+* {box-sizing:border-box;}
+
+body {
+  margin: 0;
+  letter-spacing: 0.5px;
+  background-image: url("/zubo0960001.jpg");
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 100px;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+
+
+//　ヘッダー
+header {
+  height: 60px;
+  width: 100%;
+  color: white;
+  background-color: rgba(30, 180, 30, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  margin-bottom: 60px;
+  opacity: 0.8;
+}
+
+.header-logo {
+  line-height: 1.5;
+  float: left;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+.header-menus {
+  float: right;
+}
+
+.header-menus li {
+  line-height: 1.5;
+  float: left;
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: all 1s;
+  opacity: 0.8;
+}
+
+.header-menus li:hover {
+  opacity: 1.0;
+  text-decoration:underline;
+}
+
+.header-menus a {
+  color: white;
+  padding: 0 20px;
+  display: block;
+  text-decoration:none;
+}
+
+.header-menus a:hover {
+  color: white;
+}
+
+//　トップ
+.main-title {
+  padding: 340px 0px 100px 0;
+  height: 399px;
+}
+
+.main-title h1{
+  font-size: 70px;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+
+
+// プロフィール
+.profile-container h2 {
+  text-align: center;
+}
+
+.profile-txt {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.profile-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+
+
+//　キャリア
+.timeline li {
+  font-size: 18px;
+  list-style: disc;
+  letter-spacing: 2px;
+}
+
+.experience-cotainer {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.experience-cotainer h2 {
+  text-align: center;
+}
+
+.timeline-content {
+ margin-top: 40px;
+  }
+
+
+
+//　スキル
+.skill-container {
+  width: 1100px;
+  margin: 0 auto;
+  }
+
+.skill-container-item {
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin-top: 35px;
+  line-height: 2;
+}
+
+.skill-container-rank span {
+  font-size: 25px;
+}
+
+.skill-container-text {
+  font-size: 18px;
+  line-height: 2;
+  margin-top: 45px
+}
+
+
+
+// ドリーム
+.dream-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.dream-container h2 {
+  text-align: center;
+}
+
+.dream-text {
+  font-size: 18px;
+  margin-top: 50px;
+  line-height: 2;
+  letter-spacing: 2.5px;
+}
+
+
+
+//　プロダクト
+.product-container-text {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.product-container-text span {
+  font-size: 25px;
+  font-weight: bold;
+}
+.product-container p {
+ font-size: 18px;
+ line-height: 2.5;
+ letter-spacing: 2px;
+}
